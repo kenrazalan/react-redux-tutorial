@@ -8,7 +8,7 @@ const initialState = {
       if(action.type ===ADD_ARTICLE){
           return Object.assign({},state,{
               articles: state.articles.concat(action.payload)}
-              )
+            )
       }
     return state;
   };
